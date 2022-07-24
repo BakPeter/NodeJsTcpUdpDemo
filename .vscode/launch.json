@@ -10,6 +10,13 @@
       "request": "launch",
       "skipFiles": ["<node_internals>/**"],
       "type": "node"
+    },
+    {
+      "name": "Launch tcpClient",
+      "program": "${workspaceFolder}/tcp-client.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
     }
   ]
 }
